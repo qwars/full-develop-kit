@@ -1,0 +1,52 @@
+
+header
+	display: flex
+	align-items: center
+	padding: .3rem 1rem
+	gap: 1rem
+	& > a
+		display: inline-flex
+		flex-direction: row-reverse
+		align-items: center
+		justify-content: center
+		text-decoration: none
+		dfn
+			font-style: normal
+			font-weight: bolder
+			font-size: .9rem
+			color: var(--active-color, LinkText)
+			text-transform: uppercase
+			transform: translate(-1rem, .05rem)
+			z-index: 1
+		svg
+			width: 1.5rem
+			height: 1.5rem
+			fill: var(--extra-color, ButtonFace)
+			opacity: .2
+			z-index: 0
+	& > nav
+		flex-grow: 1
+		display: flex
+		align-items: center
+		gap: 1rem
+		& > aside
+			flex-grow: 1
+			display: flex
+			justify-content: flex-end
+			gap: 1rem
+
+	& > aside
+		display: inline-flex
+		align-items: center
+		gap: 1rem
+		& > a
+			display: flex
+			align-items: center
+			gap: 1ex
+			abbr
+				display: inline-flex
+				overflow: hidden
+				border-radius: 5px
+		kbd
+			width: 1rem
+			height: 1rem
