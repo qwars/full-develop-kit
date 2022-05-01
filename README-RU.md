@@ -1,20 +1,15 @@
-# full-develop-kit
+# full-develop-kit :: combined
 
-Все наработки развертывания проектов для разработки
+Ветки проектов Rest API + WEB - запуск в docker контейнерах
 
-Каждая ветка это стартовый состав
+# Инсталяция и запуск
 
-`docker-compose.yaml` - Запуск проектов в Docker
+Копируем содержимок дирректории frontend в свой проект
 
-## Ветки
+`docker-compose up --build` - создание контейнера и запуск
 
-`main` - Документация, снипеты и генераторы кода
+`docker-compose up -d` - тихий запуск
 
-`frontend` - Ветки проектов для Web разработок
+`docker-compose down` - остановка работы контейнера
 
-`backend` - Ветки проектов Rest API
-
-`combined` - Ветки проектов Rest API + WEB - запуск в docker контейнерах
-
-`system` - Ветки проектов Desktop
-
+`docker-compose logs` - логи контейнера
