@@ -1,20 +1,15 @@
-# full-develop-kit
+# full-develop-kit :: backend
 
-Все наработки развертывания проектов для разработки
+Ветки проектов Rest API основа NestJS
 
-Каждая ветка это стартовый состав
+## Инсталяция и запуск
 
-`docker-compose.yaml` - Запуск проектов в Docker
+Копируем содержимое дирректории backend в свой проект
 
-## Ветки
+`docket-compose up --build` - первый запуск
 
-`main` - Документация, снипеты и генераторы кода
+`docker-compose up -d` - тихий запуск контейнера
 
-`frontend` - Ветки проектов для Web разработок
+`docker-compose down` - остановка контейнера
 
-`backend` - Ветки проектов Rest API
-
-`combined` - Ветки проектов Rest API + WEB - запуск в docker контейнерах
-
-`system` - Ветки проектов Desktop
 
